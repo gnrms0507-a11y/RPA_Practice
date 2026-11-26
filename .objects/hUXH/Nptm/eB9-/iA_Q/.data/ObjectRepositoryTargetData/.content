@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="9Xbp_flHi0mzOc3w0LZOKg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="2e122ca9-8070-46f6-9bf7-77d3eacc8765" CvTextArea="702, 42, 51, 16" CvTextArgument="7|922|" CvType="Text" DesignTimeRectangle="702, 42, 51, 16" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="9808de74-251f-4d93-8b6c-aedb20f4db31" ScopeSelectorArgument="&lt;wnd app='boriview.3.44.exe' cls='weFRAME' title='::: 지식재산권 관리 시스템 - EASYPAT_S_WSPAT V3.44 (특허법인 위솔) :::::::::::::*' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="2">
+          <Target CVScreenId="2e122ca9-8070-46f6-9bf7-77d3eacc8765" CvTextArea="632, 41, 52, 17" CvTextArgument="7|E22|" CvType="Text" DesignTimeRectangle="632, 41, 52, 17" ElementType="Text" Guid="afb915e2-db63-4583-bf05-cf70a4c45530" SearchSteps="CV" TargetType="ComputerVisionBased" />
+          <Target CVScreenId="2e122ca9-8070-46f6-9bf7-77d3eacc8765" CvTextArea="771, 41, 39, 17" CvTextArgument="276" CvType="Text" DesignTimeRectangle="771, 41, 39, 17" ElementType="Text" Guid="6b693666-9c6d-4c43-8c23-0c2dca924144" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="2ce406dd69b62aedaa1cac5182297fbd.jpg" xmlns="">0vTJnJIzEwEijrMb90JIsUQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,12 @@
+﻿{
+  "Name": "EASYPAT",
+  "Type": "App",
+  "Id": "hUXH7FVozEuDh_NHKfIDsA",
+  "Reference": "i57y8XVGJ0Gwc0w2Vh9ubA/hUXH7FVozEuDh_NHKfIDsA",
+  "Created": "2026-11-24T06:27:06.157432Z",
+  "Updated": "2026-11-24T06:27:06.157432Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.5.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.7.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

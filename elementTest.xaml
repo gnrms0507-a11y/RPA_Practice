@@ -1,0 +1,160 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="elementTest" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="elementTest_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Web.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.CodeDom</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Forms</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Core</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="elementTest" sap:VirtualizedContainerService.HintSize="1114,563.6566666666666" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="strSaveFilePath" />
+      <Variable x:TypeArguments="x:String" Name="strFileName" />
+      <Variable x:TypeArguments="x:Boolean" Name="is행체크여부" />
+      <Variable x:TypeArguments="x:Boolean" Name="is자료없음팝업" />
+      <Variable x:TypeArguments="x:Boolean" Name="isFileAlready" />
+      <Variable x:TypeArguments="x:Boolean" Name="isExcel다운로드창" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="450,48" sap2010:WorkflowViewState.IdRef="CommentOut_1">
+      <ui:CommentOut.Body>
+        <Sequence DisplayName="무시된 액티비티" sap:VirtualizedContainerService.HintSize="650,108" sap2010:WorkflowViewState.IdRef="Sequence_6">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <uix:NApplicationCard AttachMode="ByInstance" DisplayName="EASYPAT" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="616,48" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="f19897e4-433f-463e-bd5b-ac774758abac" Version="V2">
+            <uix:NApplicationCard.Body>
+              <ActivityAction x:TypeArguments="x:Object">
+                <ActivityAction.Argument>
+                  <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                </ActivityAction.Argument>
+                <Sequence DisplayName="실행" sap:VirtualizedContainerService.HintSize="450,245" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="기일관리 선택" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,185" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f19897e4-433f-463e-bd5b-ac774758abac" Version="V5">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable ContentHash="I6kkrrwo2kiJ9aXupVq0kA" DesignTimeRectangle="689, 29, 76, 39" ElementVisibilityArgument="Interactive" Guid="071c7d93-5e5c-4664-9f9a-90b8a19045e5" ImageAccuracyArgument="0.9" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEwAAAAnCAYAAAClpK6yAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAIySURBVGhD7Ze9SsRQEEbzIr6Bb2BjLfgA+wJib2FhY2VlJVhsIwgKdoKCnVsIW22llVhpIdgtsoWpcuUTZhknk/HOXoM/THHAnUyy3z2Z3KzVbDZLQT6VLAQ21c7RdQryqZZWD1KQTwhzEsKchDAnIcxJCHMSwpyEMCchzEkIcxLCnPQqbHl9mAZb5636T4JMK4PjVj2XXoXtDcepaZpWHXQFPzydpLWNs1a9i+nrW9reH7XqXViZcigWdnv/8hFAgmNaOEi6mTzN+7BgPoWo4Tz6DIHy2vw7ZD/VJCRVy+ShWBgEYCKIk4u7eSAtHARDGHoxZRACaTRtUgB6+PUBSdT6tUy8R8vkoViYBDIA/tbC4fPm7lWrRhOgCQB8P0SvJUzya4VhUXzxWjjIxJShhyYSE4ZzcbxLAJeECXt8ns77Cer9MxN2OXr4tHgtHI6hjxYJeXyT/0oYZGBCIZpkQCB/gXCJhHUTPXybMArCN3ArnJwCAhPIr8FfEBxMGO1lUrBWy8mUQ7EwPjHy9W6FkwI4fLF806fJldeRcniNzsdNAFamHIqEYUrwCMqfBsQi4TQBfP+SaP3yBgBkxLQukolTJAxgP9HuPLDCyQVxPJOKGyW/nz/u8ph1rRyKhVlY4VCnX/US+R8AXUf2dfVbWJly6FUYpg/7m6wDOVUcvDl5Lz2SXch+C+vxzqFXYf+REOYkhDkJYU5CmJMQ5iSEOQlhTkKYkxDmpKrrOgX5hDAn7zn3cHiomp9LAAAAAElFTkSuQmCC" InformativeScreenshot="dc056a8952cdedb42b920e0832f80ada.jpg" Reference="i57y8XVGJ0Gwc0w2Vh9ubA/mOCtjGrbN0m4AtEC-xANeQ" ScopeSelectorArgument="&lt;wnd app='boriview.*.exe' cls='weFRAME' title='*EASYPAT*' /&gt;" SearchSteps="Image" TargetType="ImageBased" Version="V6" WaitForReadyArgument="Interactive" />
+                    </uix:NClick.Target>
+                  </uix:NClick>
+                </Sequence>
+              </ActivityAction>
+            </uix:NApplicationCard.Body>
+            <uix:NApplicationCard.TargetApp>
+              <uix:TargetApp Area="2552, -8, 1936, 1048" ContentHash="6JoSHXT3pU2b2kvn1Cx2fw" FilePath="D:\EasypatS\EASYPAT_S_WSPAT\boriview.3.44.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAPSSURBVFhHzdJrTFtlGAfwN7JToEB7epj6wcRkxmQfxgfjJZu6RROdtKjMiVAY2AFtwWXIyq11FnEbYwKuSrHMUegFnKMbxsuyTpnGZBDNEqcbW+KGZMEhCljoYF4Yl+1vzoElhrdlpx0yT/LLOX2e/3Oet02JdI36NU7bNBqf34KlxO+UrlGbCKdt8sfnt1KB/16rcAhCN5bW/+EAbiy6PDe4PDdYvUt4Xj5Xo3L5bhChsYhYnQsKvQsrSzxQ1nihrPbi3lcPCAean+URLs+FxSDXOYVv+uTuI6j85HtYvN1ItR7HfYaDiA+Qv4FweiduBavj7y48VXUE7hMX0NHdjy2OTqwoPAC51gFFgJl/I5zegXDJtc1YVeaB9fOz+GlwDLaOc0gweoS6QkfnAyGcrhmhUmhn76l1HTjd50Pv4Bg0+77Ccr0D7FxPLKLQNiEUbK4dd+c7YT50Ev4/r+K7i8N4YufHkOXYqawYRJFrh1hsTiPuecUJ67EzmJyewcneQTy83QNZ9n4ochupvBiEzdkPse7U2WE5+gOmZ66hd/Ay1la0I27z+1QuFITN3gcx4jQNSLEcxR8TU8IBChxfIzrzPaF+g2xzAzV3M0SusUGM2Kx67Dj8LfhrauYajB904lFzGx4v9+Axc5vwvKqoBYrsBmp2IUT+cj3EiMuy4iFjKw59cx49v/nRNzyG8wOj6PnVj0u+cYxc+RsXh8aQVe9FbGYdNR8MkWW+C7FiN70DTmPF/Vsb8UCxC48YWwSFzV8Kf0r+euNgJ6QZFmo2GBK3yYKQZOxFDC99L6Tqt4Wa7dgpXL8O9PvGsdroRkz6bF0MEptei7CoayFNq4bOxv8xJzExOQ1D83HEqGuEHpUPgsSk7kE4olKqoNrxIQZGrgg//1vtXWAzaiANkF0IkaZUIlSRG3dincmBC7/4cHVqGlWHT0CRvgfRKbuo7M2Q6I1vIhSSDRVYW2bHuZ+HMf7XBEzOLyB7aReiXqCzYpCo5HKIEZlshuT516Esd6JnwIe+IT8ya9sQvWG2Nz8vFol81oQFPWcCk2SENHk79HXt6P/9MjpO9WB1oRXLkoyQzGWoOZGIJKkMwTCqUkQoS7BCsxu2z7rw46UhmF1e3JVWIdTn58NBJKpSBMO9aIa6qgUfdXXD9mkXHtxiAaMqAcMvD5APB5Go+JfR+EUJ+mqkVbqRoK9BZFIpIhKLqdytIhIV/9LAGGUx7njGgGWJRVRvsRB+ye1EGGURbifCrC/wz34wLLEiMOsLRknEynUm5umtI0yiAUzitiViAL+T3/0PraYrks199FgAAAAASUVORK5CYII=" InformativeScreenshot="dc0ef5de400f0cdbcd312c398ba902e1.jpg" Reference="i57y8XVGJ0Gwc0w2Vh9ubA/zpiqJlTOyEaH0nrv1FkNqQ" Selector="&lt;wnd app='boriview.*.exe' cls='weFRAME' title='*EASYPAT*' /&gt;" Version="V3" />
+            </uix:NApplicationCard.TargetApp>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+          </uix:NApplicationCard>
+        </Sequence>
+      </ui:CommentOut.Body>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </ui:CommentOut>
+  </Sequence>
+</Activity>

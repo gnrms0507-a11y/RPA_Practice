@@ -1,5 +1,5 @@
 {
-  "Name": "기한안내메일자동발송",
+  "Name": "Practice",
   "ProjectType": "Process",
   "Description": "빈 프로세스",
   "MainFile": "Main.xaml"
